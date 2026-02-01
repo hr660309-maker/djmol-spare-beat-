@@ -1,0 +1,20 @@
+﻿#wrap {
+    width: 1280px;
+    height: 640px;
+    margin: auto;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    height: 70px;
+    text-align: center
+}
+
+.header-list li {
+    float: left;
+    padding: 20px 60px;
+}
