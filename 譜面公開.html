@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-    <title>Sparebeat</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- 各種スクリプトの読み込み -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/pixi.min.js"></script>
-    <script src="js/howler.min.js"></script>
-    <script src="js/bundle.js"></script>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../body.css" />
 </head>
 <body>
-    <div id="game-container"></div>
-    <div id="loading">Loading...</div>
+    <div id="wrap">
+        <script src="../js/md5.js"></script>
+        <script src="../js/play.js" charset="utf-8"></script>
+        <script src="https://sparebeat.com/embed/client.js"></script>
+        <script>
+            Sparebeat.load('../map/' + id + '.json', '../music/' + Data[id]["mp3"] + '.mp3');
+
+            window.addEventListener('load', function () {
+                document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
+            });
+        </script>
+        <script src="../js/play_timeline.js"></script>
+        <br /><br />
+        <a href="../scores.html">戻る</a>
+    </div>
 </body>
 </html>
