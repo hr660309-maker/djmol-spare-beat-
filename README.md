@@ -22,8 +22,8 @@
         <!-- ここから新しい譜面1つだけを表示 -->
         <div class="map-card">
             <h2>ここに新しい曲名を入力</h2>
-            <p>難易度：★10 / アーティスト：〇〇</p>
-            <a href="ここに新しいGoogleドライブ等のURL" class="btn">譜面(JSON)をダウンロード</a>
+            <p>難易度：★28 / アーティスト：cosMo@暴走P</p>
+            <a href="マシンガンポエムドール.json" class="btn">譜面(JSON)をダウンロード</a>
         </div>
 
     </div>
