@@ -1,4 +1,9 @@
-iframe{
-display:block;
-margin:0 auto;
+.game-container {
+    text-align: center; 
+    width: 100%;       
+}
+
+#sparebeat {
+    display: inline-block; 
+    max-width: 100%;      
 }
