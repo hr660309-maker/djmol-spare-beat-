@@ -1,9 +1,5 @@
-.game-container {
-    text-align: center; 
-    width: 100%;       
-}
-
-#sparebeat {
-    display: inline-block; 
-    max-width: 100%;      
+iframe{
+  display:text;
+  margin-left:300px;
+  
 }
